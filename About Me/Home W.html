@@ -3,19 +3,19 @@
   <head>
     <title>Home Work</title>
   </head>
-  <body>
+  <body style="background-color: blue;">
     <!------------------form--------------------------->
     <form>
       <label>Name</label>
-      <br>
+      <br />
       <input placeholder="Name" type="text" required />
       <br />
       <label>password</label>
-      <br>
+      <br />
       <input placeholder="password" type="password" required />
       <br />
       <label>Contact number</label>
-      <br>
+      <br />
       <input
         placeholder="0000-0000000"
         type="tel"
@@ -24,15 +24,38 @@
       />
       <br />
       <label>Email</label>
-      <br>
+      <br />
       <input placeholder="Email" type="email" required />
       <br />
-      <input type="submit" value="click me" required />
+      <br />
+      <input type="file" />
+      <br />
+      <br />
+      <input type="radio" name="gender" />
+      <label>Male</label>
+      <input type="radio" name="gender" />
+      <label>Female</label>
+      <br />
+      <br />
+      <p><h2>Select Favorite color</h2></p>
+      <input type="checkbox" name="fav1" />
+      <label>red</label>
+      <input type="checkbox" name="fav2" />
+      <label>Black</label>
+      <input type="checkbox" name="fav3" />
+      <label>Blue</label>
+      <br />
+      <br />
+      <input type="submit" value="Submit"/>
+      <input type="reset" />
     </form>
     <br />
     <!-------------------------Table------------------------->
     <table>
-      <caption><b>Class</b></caption>
+      <table border="1px" style="border: 1px solid; width: 40%;" >
+      <caption>
+        <b>Class</b>
+      </caption>
       <tr>
         <th>Nmae</th>
         <th>Contact</th>
@@ -57,7 +80,7 @@
         <td>Zeshan</td>
         <td>0304-6398987</td>
         <td>saanich666@gmail.com</td>
-      </tr>
+      </tr></table>
     </table>
   </body>
 </html>
