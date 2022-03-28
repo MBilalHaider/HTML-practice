@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Family Medicine Practice</h1>
+    <br>
+   <div style="background-color: lightgreen; text-align: center;" > <h2 style="color: white;">Patient Information</h2> </div> 
+   <form>
+       <Label>First Name</Label>
+       <br>
+       <input type="text" required>
+       <br>
+       <br>
+       <label>Last Name</label>
+       <br>
+       <input type="text" required>
+       <br>
+       <br>
+       <label>Birth Date</label>
+       <br>
+       <input type="date" required>
+       <br>
+       <br>
+       <label>Daytime Phone</label>
+       <br>
+       <input placeholder="(xxx) xxx-xxxx" type="tel" pattern="[0-9]{3}(3) [0-9]{3}-[0-9]{4}" required>
+       <br>
+       <br>
+       <label>Evening Phone</label>
+       <br>
+       <input placeholder="(xxx) xxx-xxxx" type="tel" pattern="[0-9]{3}(3) [0-9]{3}-[0-9]{4}">
+       <br>
+       <br>
+       <label>Is this your first time visiting our office?</label>
+       <br>
+       <input type="radio" name="select">
+       <label>Yes</label>
+       <input type="radio" name="select">
+       <label>No</label>
+       <div style="background-color: lightgreen; text-align: center;"> <h2 style="color: white;">Appointment Information</h2> </div>
+       <label>Date</label>
+       <br>
+       <input type="date" required>
+       <br>
+       <label>Time</label>
+       <br>
+       <input type="time" required>
+       <br>
+       <label> Please describe the reason for this visit</label>
+       <br>
+       <textarea></textarea>
+       <br>
+       <input type="submit">
+   </form>
+</body>
+</html>
